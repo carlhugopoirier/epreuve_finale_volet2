@@ -1,18 +1,26 @@
 var http = require("http");
+var ejs = require('ejs');
 var express = require('express');
 var app = express();
 var fs = require("fs");
-var obj;
-fs.readFile('public/text/collection_provinces.json', 'utf-8', function (err, data) {
-		if (err) return console.error(err);
-		obj = JSON.stringify(data)
-});
 
 app.get('/', function (req, res) {
-		  res.writeHead(200, {"Content-Type": "application/json"});
-		  res.write(obj);
-		  res.end();
-		})
+ 		fs.readFile('public/text/collection_provinces.json', 'utf-8', function (err, data) {
+		if (err) return console.error(err);
+		var obj = JSON.parse(data)
+		  res.writeHead(200, {"Content-Type": "text/html"});
+		  res.end(data);
+		});
+});
+
+app.get('/etape2', function (req, res) {
+ 	fs.readFile('public/text/collection_provinces.json', 'utf-8', function (err, data) {
+		if (err) return console.error(err);
+			obj = JSON.parse(data)
+			console.log(obj);
+		  	res.render('index.ejs', {provinces: obj});
+		});
+})
 
 var server = app.listen(8081, function () {
    var host = server.address().address
@@ -20,4 +28,4 @@ var server = app.listen(8081, function () {
    
    console.log("Example app listening at http://%s:%s", host, port)
    console.log('Server running.');
-})
+});

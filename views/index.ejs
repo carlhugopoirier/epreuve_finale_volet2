@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../public/less/style.less">
 <title>Épreuve finale volet II - Node.js, Express, MongoDB, EJS</title>
 </head>
 <body>
@@ -22,7 +22,19 @@
   	  </header>
   	  <main>
 		  <table class="tableau">
-        ----------------------------------------
+      <% for(var i=0; i<provinces.length; i++) {%>
+          <tr>
+            <td>
+              <span><%= provinces[i].code %></span>
+            </td>
+            <td>
+              <span><%= provinces[i].nom %></span>
+            </td>
+            <td>
+              <span><%= provinces[i].capital %></span>
+            </td>
+          </tr>
+          <% } %>
 		  </table>
 	  </main>
 	  <footer>
