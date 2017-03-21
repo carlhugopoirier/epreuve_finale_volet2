@@ -1,0 +1,174 @@
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2
+$ git init .
+Initialized empty Git repository in C:/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2/.git/
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in etape.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/css/style.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/less/style.less.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in public/text/collection_provinces.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m 'Début de l'épreuve finale - Volet 2'
+>
+> ^C
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Début de l'épreuve finale - Volet 2"
+[master (root-commit) ea95634] Début de l'épreuve finale - Volet 2
+ 16 files changed, 280 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 devis/.~lock.devis_volet_2.odt#
+ create mode 100644 devis/devis_volet_2.odt
+ create mode 100644 devis/devis_volet_2.pdf
+ create mode 100644 devis/etape_1.png
+ create mode 100644 devis/etape_2.png
+ create mode 100644 devis/etape_3.png
+ create mode 100644 devis/etape_4.png
+ create mode 100644 devis/etape_5.png
+ create mode 100644 devis/etape_6.png
+ create mode 100644 etape.js
+ create mode 100644 package.json
+ create mode 100644 public/css/style.css
+ create mode 100644 public/less/style.less
+ create mode 100644 public/text/collection_provinces.json
+ create mode 100644 views/index.ejs
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git remote add origin https://github.com/carlhugopoirier/epreuve_finale_volet2.git
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git push -u origin master
+Counting objects: 24, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (24/24), 689.29 KiB | 0 bytes/s, done.
+Total 24 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+Branch master set up to track remote branch master from origin.
+To https://github.com/carlhugopoirier/epreuve_finale_volet2.git
+ * [new branch]      master -> master
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Étape #1 lecture du fichier"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Continuation de l'étape 1"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   package.json
+
+no changes added to commit
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Continuation"
+[master 05d5734] Continuation
+ 2 files changed, 27 insertions(+), 3 deletions(-)
+ create mode 100644 serveur.js
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Étape #1 terminée"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+        modified:   serveur.js
+
+no changes added to commit
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Étape 1 terminée"
+[master 1d5d647] Étape 1 terminée
+ 1 file changed, 15 insertions(+), 7 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Début de l'étape 2"
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+        modified:   serveur.js
+
+no changes added to commit
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Début de l'étape 2"
+[master 6cb3f84] Début de l'étape 2
+ 1 file changed, 8 insertions(+), 9 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Continuation"
+[master f09b6df] Continuation
+ 3 files changed, 32 insertions(+), 12 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in views/index.ejs.
+The file will have its original line endings in your working directory.
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Étape 2 terminée"
+[master 3fd13f5] Étape 2 terminée
+ 3 files changed, 14 insertions(+), 7 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Début étape 3"
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$ git commit -m "Fin de l'épreuve finale, étape 3 incomplète. Étape 4 et 5 non complétées"
+[master 03b7ac5] Fin de l'épreuve finale, étape 3 incomplète. Étape 4 et 5 non complétées
+ 1 file changed, 25 insertions(+), 2 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet2 (master)
+$
